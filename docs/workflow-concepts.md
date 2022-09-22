@@ -59,7 +59,7 @@ Example:
   
 ##### [Script](fields.md#scripttemplate)
 
-A convenience wrapper around a `container`. The spec is the same as a container, but adds the `source:` field which allows you to define a script in-place.
+A convenience wrapper around a `container`. The script is the same as a container, but adds the `source:` field which allows you to define a script in-place.
 The script will be saved into a file and executed for you. The result of the script is automatically exported into an [Argo variable](./variables.md) either `{{tasks.<NAME>.outputs.result}}` or `{{steps.<NAME>.outputs.result}}`, depending how it was called.
 
 Example:
